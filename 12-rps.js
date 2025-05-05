@@ -1,4 +1,3 @@
-function renderGame() {
 let score = JSON.parse(localStorage.getItem('score')) || {win:0, loose:0, tie:0};
 
 document.querySelector('.reset-score-btn')
@@ -156,7 +155,3 @@ function pickComputerMove()
 
     return computerMove;
 }
-    
-}
-
-renderGame();
