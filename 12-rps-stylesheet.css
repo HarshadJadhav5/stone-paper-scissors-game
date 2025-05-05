@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family:arial;
+    height: 90vh;
+    width: 100%;
+    
+}
+
+.stone{
+    display:inline-block;
+}
+
+img{
+    height: 130px;
+    width: 180px;
+    border: 5px solid rgb(238, 255, 0);
+    cursor:pointer;
+}
+
+.result{
+    font-size: 40px;
+}
+
+.reset-score-btn, .auto-play-btn{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+
+}
+
+.css-game{
+    text-align: center;
+    height: 500px;
+    margin: 100px;
+    background-color: cornflowerblue;
+    
+}
